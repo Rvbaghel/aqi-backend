@@ -2,10 +2,10 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 import logging
 
-from app.routers.aqi import router as aqi_router
-from app.routers.health import router as health_router
-from app.routers.cities import router as cities_router
-from app.core.scheduler import start_scheduler, scheduler
+from routers.aqi import router as aqi_router
+from routers.health import router as health_router
+from routers.cities import router as cities_router
+from core.scheduler import start_scheduler, scheduler
 
 logging.basicConfig(level=logging.INFO)
 
