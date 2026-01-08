@@ -1,9 +1,8 @@
-OPENWEATHER_API_KEY = "732994518c780492851688b820a2096a"
-
 from dotenv import load_dotenv
 import os
 
 load_dotenv()   # <-- THIS LINE IS IMPORTANT
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
 DB_CONFIG = {
     "host": os.getenv("DB_HOST"),
