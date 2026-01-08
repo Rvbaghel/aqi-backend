@@ -2,15 +2,10 @@
 
 <div align="center">
 
-![SkyGuard Backend](https://img.shields.io/badge/SkyGuard-Backend%20API-60a5fa?style=for-the-badge)
-[![Live API](https://img.shields.io/badge/Live-API-22c55e?style=for-the-badge)](YOUR_RENDER_URL)
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://neon.tech)
+[![SkyGuard](https://img.shields.io/badge/FastAPI-0.104+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://skyguard-aqi.streamlit.app)
 
 **High-performance REST API for real-time air quality monitoring**
 
-[API Documentation](YOUR_RENDER_URL/docs) • [Frontend Repository](YOUR_FRONTEND_REPO) • [Report Bug](YOUR_ISSUES_LINK)
 
 </div>
 
@@ -23,12 +18,6 @@
 - [Tech Stack](#-tech-stack)
 - [Architecture](#-architecture)
 - [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [API Documentation](#-api-documentation)
-- [Database Schema](#-database-schema)
-- [Deployment](#-deployment)
-- [Monitoring](#-monitoring)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -258,3 +247,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **SkyGuard Systems © 2025 - v2.5.0 Stable Release**
 
 </div>
+
