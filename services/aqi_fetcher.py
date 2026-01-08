@@ -1,7 +1,7 @@
 import requests
 import logging
-from app.core.config import OPENWEATHER_API_KEY
-from app.db.database import get_db_connection
+from core.config import OPENWEATHER_API_KEY
+from db.database import get_db_connection
 import psycopg2
 
 logging.basicConfig(

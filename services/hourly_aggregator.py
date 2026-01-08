@@ -1,5 +1,5 @@
 import logging
-from app.db.database import get_db_connection
+from db.database import get_db_connection
 import psycopg2
 
 logging.basicConfig(level=logging.INFO)

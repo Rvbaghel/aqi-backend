@@ -1,7 +1,7 @@
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from app.services.aqi_fetcher import fetch_and_store_aqi
-from app.services.hourly_aggregator import aggregate_hourly_aqi
-from app.services.daily_feature_aggregator import aggregate_daily_features
+from services.aqi_fetcher import fetch_and_store_aqi
+from services.hourly_aggregator import aggregate_hourly_aqi
+from services.daily_feature_aggregator import aggregate_daily_features
 
 import pytz
 

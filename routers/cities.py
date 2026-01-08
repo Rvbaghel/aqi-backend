@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Depends
-from app.db.database import get_db_connection
+from db.database import get_db_connection
 import psycopg2
 import psycopg2.extras
 

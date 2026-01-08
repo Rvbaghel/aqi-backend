@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from datetime import datetime
-from app.db.database import get_db_connection
+from db.database import get_db_connection
 import psycopg2
 
 router = APIRouter(
